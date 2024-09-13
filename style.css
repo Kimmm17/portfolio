@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h2 {
+    margin: 0;
+    color: #ff6f61;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+.hero .hero-content {
+    max-width: 600px;
+}
+
+.hero .hero-image {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Portfolio Section */
+.portfolio {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.portfolio-item {
+    text-align: center;
+}
+
+.portfolio-item .item-image {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-content .profile-image {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 40px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Gallery Section */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #e9ecef;
+}
+
+.gallery-item {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
